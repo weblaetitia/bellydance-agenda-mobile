@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "bellydance_agenda",
-    "slug": "bellydance_agenda",
+    "name": "Bellydance Agenda",
+    "slug": "bellydance-agenda",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "your-app-scheme",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -32,7 +33,8 @@
         {
           "domain": "dev-bdagenda.eu.auth0.com"
         }
-      ]
+      ],
+      "expo-router"
     ]
   }
 }
